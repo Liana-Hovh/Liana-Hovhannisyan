@@ -1,8 +1,13 @@
+/*body style*/
 body{
     width: 100%;
     height: 100%;
     padding-top: 0%;
 }
+.body-list{
+    float:right;
+}
+/*Left Container Style*/
 .img-headar{
     width: 150px;
     height: 150px;
@@ -14,22 +19,23 @@ body{
     height: 900px;
     opacity: 0.3;
 }
-.body-list{
-    float:right;
-}
 .left-section{
     text-align: right;
+}
+.left-menu{
+    background-color: cornsilk;
 }
 .name-span{
     border: solid 1px rgb(163, 162, 162);
     background-color: rgb(163, 162, 162);
     text-align: center;
 }
+/* Right Container Style*/
 .right-menu{
     background-color: #fbe5e9;
 }
-.left-menu{
-    background-color: cornsilk;
+h4{
+    margin-bottom: 35px;
 }
 .qualifications{
     border-bottom: solid 1px rgb(163, 162, 162);
@@ -51,10 +57,7 @@ i{
 .contact-list i{
     margin-left: 30px;
 }
-h4{
-    margin-bottom: 35px;
-}
-/*media print*/
+/*Media Print*/
 @media print{
 .left-menu{
     width: 50%;
