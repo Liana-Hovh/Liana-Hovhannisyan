@@ -8,13 +8,19 @@
 .right-menu{
     background-color: #fbd3da;
 }
+.left-menu{
+    background-color: cornsilk;
+}
 .qualifications{
     border-bottom: solid 1px rgb(163, 162, 162);
 }
 .end-border{
     border-top: solid 1px rgb(163, 162, 162);
-    font-size: 5px;
+    font-size: 10px;
 }
-@media{
-    
+/*media print*/
+@media print{
+.left-menu{
+    width: 50%;
+}
 }
