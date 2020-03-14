@@ -30,9 +30,13 @@ body{
     background-color: rgb(163, 162, 162);
     text-align: center;
 }
+.p-other{
+    margin-left: -20px;
+    font-size: 15px;
+}
 /* Right Container Style*/
 .right-menu{
-    background-color: #fbe5e9;
+    background-color: #c78a95;
 }
 h4{
     margin-bottom: 35px;
